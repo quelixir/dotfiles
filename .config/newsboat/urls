@@ -1,16 +1,15 @@
 https://www.hltv.org/rss/news esports csgo
 
-https://jade.io/xml/au-hca.xml legal cases
-
 https://www.legislation.qld.gov.au/feed?id=whatsnew legal legislation
-https://jade.io/xml/au-leg-act.xml legal legislation
-https://jade.io/xml/au-leg-sr.xml legal legislation
 
-https://lukesmith.xyz/rss.xml tech blogs
-http://ebb.org/bkuhn/blog/rss.xml tech blogs
+https://www.abc.net.au/news/feed/10719986/rss.xml news abc "top stories"
+https://www.abc.net.au/news/feed/5555988/rss.xml news abc qld "top stories"
+https://www.abc.net.au/news/feed/104217372/rss.xml news abc politics
+https://www.abc.net.au/news/feed/10719976/rss.xml news abc latest
 
-https://notrelated.xyz/rss podcasts
+https://www.sbs.com.au/news/feed news sbs
+https://www.sbs.com.au/news/topic/latest/feed news sbs latest
 
-https://landchad.net/rss.xml tech
-https://artixlinux.org/feed.php tech
-https://www.archlinux.org/feeds/news/ tech
+https://www.thesaturdaypaper.com.au/rss.xml news
+
+https://www.theguardian.com/au/rss news
