@@ -1,3 +1,10 @@
+# dotfiles
+
+## Other stuff to do
+- Download and install the [Fira Code](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraCode.zip) font
+
+## Commands
+
 ```bash
 
 # graphics drivers - refer: https://rpmfusion.org/Howto/NVIDIA#Current_GeForce.2FQuadro.2FTesla
@@ -40,6 +47,11 @@ $ sudo pipx ensurepath --global # optional to allow pipx actions with --global a
 # poetry (downstream of pipx)
 $ pipx install poetry
 
+# neovim
+$ sudo dnf install neovim
+$ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+$ nvim +'PlugInstall --sync' +qa
+
 # misc
-$ sudo dnf install btop neovim newsboat
+$ sudo dnf install btop newsboat yt-dlp
 ```
