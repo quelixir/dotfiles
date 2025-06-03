@@ -2,6 +2,7 @@
 
 ## Other stuff to do
 - Download and install the [Fira Code](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraCode.zip) font
+- Import private key
 
 ## How
 
