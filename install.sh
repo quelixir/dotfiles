@@ -3,6 +3,8 @@ cp -r ./.config/. ~/.config/.
 
 echo "Updating..."
 
+sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
 sudo dnf update -y
 sudo dnf install -y fedora-workstation-repositories
 
@@ -49,6 +51,7 @@ nvim +'PlugInstall --sync' +qa
 echo "Installing and setting up Starship..."
 curl -sS https://starship.rs/install.sh | sudo sh
 echo 'eval "$(starship init zsh)"' >> ~/.zshrc
+starship preset catppuccin-powerline -o ~/.config/starship.toml
 
 echo "Installing other packages..."
 sudo dnf install -y btop newsboat yt-dlp
