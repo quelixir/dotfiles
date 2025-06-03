@@ -1,0 +1,11 @@
+# set browser
+browser "firefox %u"
+
+# reloaading behaviour
+auto-reload yes
+reload-time 60 # minutes
+reload-threads 10
+
+# styling
+highlight feedlist "---.*---" green default bold
+highlight feedlist ".*0/0.." default default invis
