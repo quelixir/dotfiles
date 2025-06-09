@@ -10,3 +10,5 @@ require('lualine').setup{
 options = {theme = 'gruvbox'}
 }
 END
+
+set number
