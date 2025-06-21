@@ -12,6 +12,13 @@ https://www.thesaturdaypaper.com.au/rss.xml news
 https://feeds.feedburner.com/IndependentAustralia news
 https://www.crikey.com.au/feed/ news
 
+---News_tech---
+https://feeds.arstechnica.com/arstechnica/index news "~Ars Technica"
+https://theverge.com/rss/index.xml news "~The Verge"
+https://www.polygon.com/rss/index.xml news "~Polygon"
+https://www.pcgamer.com/au/rss/ news "~PC Gamer"
+https://www.rockpapershotgun.com/feed news "~Rock Paper Shotgun"
+
 ---Left---
 https://australiainstitute.org.au/feed/ news "~The Australia Institute"
 http://www.wsws.org/en/rss.xml news "~World Socialist Web Site"
